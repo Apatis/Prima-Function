@@ -1,0 +1,25 @@
+{
+    "name": "apatis/prima-function",
+    "description": "Implement Functional For Prima -> The Slowest Performance Micro Framework",
+    "type": "project",
+    "require": {
+        "php": ">= 7.0",
+        "apatis/prima": "~1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pentagonal",
+            "email": "org@pentagonal.org",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "files" : [
+            "src/bootstrap.php"
+        ]
+    }
+}
